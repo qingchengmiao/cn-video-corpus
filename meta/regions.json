@@ -1,0 +1,1375 @@
+{
+ "generated_at": "2026-11-24T03:57:49+08:00",
+ "method": "对 rid 1..500 调 https://api.bilibili.com/x/web-interface/ranking/v2?rid=R&type=all，记录 code/n 与返回视频的 tid/tname；并用已采 raw 的 typeid/typename 补充 tid→二级名",
+ "probed_count": 10,
+ "probed_to_rid": 10,
+ "aborted": {
+  "rid": 11,
+  "reason": "连续10次 -352 风控"
+ },
+ "valid_rids": [
+  1,
+  3,
+  4,
+  5,
+  11,
+  23,
+  36
+ ],
+ "ranking_rejected_rids": [],
+ "risk_blocked": [],
+ "empty_rids": [],
+ "tids": [
+  {
+   "tid": 17,
+   "tname": "单机游戏",
+   "ranking_rids": [],
+   "newlist_rids": [
+    4
+   ],
+   "count": 36
+  },
+  {
+   "tid": 20,
+   "tname": "宅舞",
+   "ranking_rids": [],
+   "newlist_rids": [
+    129
+   ],
+   "count": 24
+  },
+  {
+   "tid": 21,
+   "tname": "日常",
+   "ranking_rids": [],
+   "newlist_rids": [
+    160
+   ],
+   "count": 150
+  },
+  {
+   "tid": 22,
+   "tname": "鬼畜调教",
+   "ranking_rids": [],
+   "newlist_rids": [
+    119
+   ],
+   "count": 21
+  },
+  {
+   "tid": 25,
+   "tname": "MMD·3D",
+   "ranking_rids": [],
+   "newlist_rids": [
+    1
+   ],
+   "count": 6
+  },
+  {
+   "tid": 26,
+   "tname": "音MAD",
+   "ranking_rids": [],
+   "newlist_rids": [
+    119
+   ],
+   "count": 45
+  },
+  {
+   "tid": 27,
+   "tname": "综合",
+   "ranking_rids": [],
+   "newlist_rids": [
+    1
+   ],
+   "count": 93
+  },
+  {
+   "tid": 28,
+   "tname": "原创音乐",
+   "ranking_rids": [],
+   "newlist_rids": [
+    3
+   ],
+   "count": 3
+  },
+  {
+   "tid": 29,
+   "tname": "音乐现场",
+   "ranking_rids": [],
+   "newlist_rids": [
+    3
+   ],
+   "count": 75
+  },
+  {
+   "tid": 30,
+   "tname": "VOCALOID·UTAU",
+   "ranking_rids": [],
+   "newlist_rids": [
+    3
+   ],
+   "count": 3
+  },
+  {
+   "tid": 31,
+   "tname": "翻唱",
+   "ranking_rids": [],
+   "newlist_rids": [
+    3
+   ],
+   "count": 12
+  },
+  {
+   "tid": 47,
+   "tname": "同人·手书",
+   "ranking_rids": [],
+   "newlist_rids": [
+    1
+   ],
+   "count": 6
+  },
+  {
+   "tid": 51,
+   "tname": "资讯",
+   "ranking_rids": [],
+   "newlist_rids": [
+    13
+   ],
+   "count": 6
+  },
+  {
+   "tid": 59,
+   "tname": "演奏",
+   "ranking_rids": [],
+   "newlist_rids": [
+    3
+   ],
+   "count": 3
+  },
+  {
+   "tid": 65,
+   "tname": "网络游戏",
+   "ranking_rids": [],
+   "newlist_rids": [
+    4
+   ],
+   "count": 36
+  },
+  {
+   "tid": 71,
+   "tname": "综艺",
+   "ranking_rids": [],
+   "newlist_rids": [
+    5
+   ],
+   "count": 9
+  },
+  {
+   "tid": 76,
+   "tname": "美食制作",
+   "ranking_rids": [],
+   "newlist_rids": [
+    211
+   ],
+   "count": 27
+  },
+  {
+   "tid": 83,
+   "tname": "其他国家",
+   "ranking_rids": [],
+   "newlist_rids": [
+    23
+   ],
+   "count": 12
+  },
+  {
+   "tid": 85,
+   "tname": "小剧场",
+   "ranking_rids": [],
+   "newlist_rids": [
+    181
+   ],
+   "count": 9
+  },
+  {
+   "tid": 86,
+   "tname": "特摄",
+   "ranking_rids": [],
+   "newlist_rids": [
+    1
+   ],
+   "count": 9
+  },
+  {
+   "tid": 95,
+   "tname": "数码",
+   "ranking_rids": [],
+   "newlist_rids": [
+    188
+   ],
+   "count": 144
+  },
+  {
+   "tid": 122,
+   "tname": "野生技能协会",
+   "ranking_rids": [],
+   "newlist_rids": [
+    36
+   ],
+   "count": 6
+  },
+  {
+   "tid": 124,
+   "tname": "社科·法律·心理",
+   "ranking_rids": [],
+   "newlist_rids": [
+    36
+   ],
+   "count": 15
+  },
+  {
+   "tid": 126,
+   "tname": "人力VOCALOID",
+   "ranking_rids": [],
+   "newlist_rids": [
+    119
+   ],
+   "count": 3
+  },
+  {
+   "tid": 130,
+   "tname": "音乐综合",
+   "ranking_rids": [],
+   "newlist_rids": [
+    3
+   ],
+   "count": 42
+  },
+  {
+   "tid": 137,
+   "tname": "明星综合",
+   "ranking_rids": [],
+   "newlist_rids": [
+    5
+   ],
+   "count": 33
+  },
+  {
+   "tid": 145,
+   "tname": "欧美电影",
+   "ranking_rids": [],
+   "newlist_rids": [
+    23
+   ],
+   "count": 18
+  },
+  {
+   "tid": 147,
+   "tname": "国产电影",
+   "ranking_rids": [],
+   "newlist_rids": [
+    23
+   ],
+   "count": 9
+  },
+  {
+   "tid": 152,
+   "tname": "官方延伸",
+   "ranking_rids": [],
+   "newlist_rids": [
+    13
+   ],
+   "count": 144
+  },
+  {
+   "tid": 153,
+   "tname": "国产动画",
+   "ranking_rids": [],
+   "newlist_rids": [
+    167
+   ],
+   "count": 87
+  },
+  {
+   "tid": 154,
+   "tname": "舞蹈综合",
+   "ranking_rids": [],
+   "newlist_rids": [
+    129
+   ],
+   "count": 84
+  },
+  {
+   "tid": 156,
+   "tname": "舞蹈教程",
+   "ranking_rids": [],
+   "newlist_rids": [
+    129
+   ],
+   "count": 6
+  },
+  {
+   "tid": 157,
+   "tname": "美妆护肤",
+   "ranking_rids": [],
+   "newlist_rids": [
+    155
+   ],
+   "count": 54
+  },
+  {
+   "tid": 158,
+   "tname": "穿搭",
+   "ranking_rids": [],
+   "newlist_rids": [
+    155
+   ],
+   "count": 30
+  },
+  {
+   "tid": 159,
+   "tname": "时尚潮流",
+   "ranking_rids": [],
+   "newlist_rids": [
+    155
+   ],
+   "count": 9
+  },
+  {
+   "tid": 168,
+   "tname": "国产原创相关",
+   "ranking_rids": [],
+   "newlist_rids": [
+    167
+   ],
+   "count": 63
+  },
+  {
+   "tid": 171,
+   "tname": "电子竞技",
+   "ranking_rids": [],
+   "newlist_rids": [
+    4
+   ],
+   "count": 15
+  },
+  {
+   "tid": 172,
+   "tname": "手机游戏",
+   "ranking_rids": [],
+   "newlist_rids": [
+    4
+   ],
+   "count": 63
+  },
+  {
+   "tid": 182,
+   "tname": "影视杂谈",
+   "ranking_rids": [],
+   "newlist_rids": [
+    181
+   ],
+   "count": 42
+  },
+  {
+   "tid": 183,
+   "tname": "影视剪辑",
+   "ranking_rids": [],
+   "newlist_rids": [
+    181
+   ],
+   "count": 90
+  },
+  {
+   "tid": 184,
+   "tname": "预告·资讯",
+   "ranking_rids": [],
+   "newlist_rids": [
+    181
+   ],
+   "count": 6
+  },
+  {
+   "tid": 185,
+   "tname": "国产剧",
+   "ranking_rids": [],
+   "newlist_rids": [
+    11
+   ],
+   "count": 21
+  },
+  {
+   "tid": 187,
+   "tname": "海外剧",
+   "ranking_rids": [],
+   "newlist_rids": [
+    11
+   ],
+   "count": 9
+  },
+  {
+   "tid": 193,
+   "tname": "MV",
+   "ranking_rids": [],
+   "newlist_rids": [
+    3
+   ],
+   "count": 3
+  },
+  {
+   "tid": 198,
+   "tname": "街舞",
+   "ranking_rids": [],
+   "newlist_rids": [
+    129
+   ],
+   "count": 6
+  },
+  {
+   "tid": 199,
+   "tname": "明星舞蹈",
+   "ranking_rids": [],
+   "newlist_rids": [
+    129
+   ],
+   "count": 15
+  },
+  {
+   "tid": 200,
+   "tname": "国风舞蹈",
+   "ranking_rids": [],
+   "newlist_rids": [
+    129
+   ],
+   "count": 6
+  },
+  {
+   "tid": 201,
+   "tname": "科学科普",
+   "ranking_rids": [],
+   "newlist_rids": [
+    36
+   ],
+   "count": 15
+  },
+  {
+   "tid": 203,
+   "tname": "热点",
+   "ranking_rids": [],
+   "newlist_rids": [
+    202
+   ],
+   "count": 6
+  },
+  {
+   "tid": 205,
+   "tname": "社会",
+   "ranking_rids": [],
+   "newlist_rids": [
+    202
+   ],
+   "count": 144
+  },
+  {
+   "tid": 207,
+   "tname": "财经商业",
+   "ranking_rids": [],
+   "newlist_rids": [
+    36
+   ],
+   "count": 21
+  },
+  {
+   "tid": 208,
+   "tname": "校园学习",
+   "ranking_rids": [],
+   "newlist_rids": [
+    36
+   ],
+   "count": 45
+  },
+  {
+   "tid": 209,
+   "tname": "职业职场",
+   "ranking_rids": [],
+   "newlist_rids": [
+    36
+   ],
+   "count": 15
+  },
+  {
+   "tid": 210,
+   "tname": "模玩·周边",
+   "ranking_rids": [],
+   "newlist_rids": [
+    1
+   ],
+   "count": 3
+  },
+  {
+   "tid": 212,
+   "tname": "美食侦探",
+   "ranking_rids": [],
+   "newlist_rids": [
+    211
+   ],
+   "count": 9
+  },
+  {
+   "tid": 213,
+   "tname": "美食测评",
+   "ranking_rids": [],
+   "newlist_rids": [
+    211
+   ],
+   "count": 12
+  },
+  {
+   "tid": 214,
+   "tname": "田园美食",
+   "ranking_rids": [],
+   "newlist_rids": [
+    211
+   ],
+   "count": 6
+  },
+  {
+   "tid": 215,
+   "tname": "美食记录",
+   "ranking_rids": [],
+   "newlist_rids": [
+    211
+   ],
+   "count": 96
+  },
+  {
+   "tid": 216,
+   "tname": "鬼畜剧场",
+   "ranking_rids": [],
+   "newlist_rids": [
+    119
+   ],
+   "count": 81
+  },
+  {
+   "tid": 228,
+   "tname": "人文历史",
+   "ranking_rids": [],
+   "newlist_rids": [
+    36
+   ],
+   "count": 33
+  },
+  {
+   "tid": 230,
+   "tname": "软件应用",
+   "ranking_rids": [],
+   "newlist_rids": [
+    188
+   ],
+   "count": 6
+  },
+  {
+   "tid": 241,
+   "tname": "娱乐杂谈",
+   "ranking_rids": [],
+   "newlist_rids": [
+    5
+   ],
+   "count": 39
+  },
+  {
+   "tid": 242,
+   "tname": "娱乐粉丝创作",
+   "ranking_rids": [],
+   "newlist_rids": [
+    5
+   ],
+   "count": 63
+  },
+  {
+   "tid": 243,
+   "tname": "乐评盘点",
+   "ranking_rids": [],
+   "newlist_rids": [
+    3
+   ],
+   "count": 3
+  },
+  {
+   "tid": 244,
+   "tname": "音乐教学",
+   "ranking_rids": [],
+   "newlist_rids": [
+    3
+   ],
+   "count": 3
+  },
+  {
+   "tid": 252,
+   "tname": "仿妆cos",
+   "ranking_rids": [],
+   "newlist_rids": [
+    155
+   ],
+   "count": 57
+  },
+  {
+   "tid": 253,
+   "tname": "动漫杂谈",
+   "ranking_rids": [],
+   "newlist_rids": [
+    1
+   ],
+   "count": 30
+  },
+  {
+   "tid": 255,
+   "tname": "颜值·网红舞",
+   "ranking_rids": [],
+   "newlist_rids": [
+    129
+   ],
+   "count": 9
+  },
+  {
+   "tid": 256,
+   "tname": "短片",
+   "ranking_rids": [],
+   "newlist_rids": [
+    181
+   ],
+   "count": 3
+  },
+  {
+   "tid": 257,
+   "tname": "配音",
+   "ranking_rids": [],
+   "newlist_rids": [
+    1
+   ],
+   "count": 3
+  },
+  {
+   "tid": 263,
+   "tname": "颜值安利",
+   "ranking_rids": [],
+   "newlist_rids": [
+    5
+   ],
+   "count": 6
+  },
+  {
+   "tid": 267,
+   "tname": "电台",
+   "ranking_rids": [],
+   "newlist_rids": [
+    3
+   ],
+   "count": 3
+  }
+ ],
+ "parent_map": {
+  "17": {
+   "parent_rid": 4,
+   "parent_name": "游戏",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "20": {
+   "parent_rid": 129,
+   "parent_name": "舞蹈",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "21": {
+   "parent_rid": 160,
+   "parent_name": "生活",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "22": {
+   "parent_rid": 119,
+   "parent_name": "鬼畜",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "25": {
+   "parent_rid": 1,
+   "parent_name": "动画",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "26": {
+   "parent_rid": 119,
+   "parent_name": "鬼畜",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "27": {
+   "parent_rid": 1,
+   "parent_name": "动画",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "28": {
+   "parent_rid": 3,
+   "parent_name": "音乐",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "29": {
+   "parent_rid": 3,
+   "parent_name": "音乐",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "30": {
+   "parent_rid": 3,
+   "parent_name": "音乐",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "31": {
+   "parent_rid": 3,
+   "parent_name": "音乐",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "47": {
+   "parent_rid": 1,
+   "parent_name": "动画",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "51": {
+   "parent_rid": 13,
+   "parent_name": "番剧",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "59": {
+   "parent_rid": 3,
+   "parent_name": "音乐",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "65": {
+   "parent_rid": 4,
+   "parent_name": "游戏",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "71": {
+   "parent_rid": 5,
+   "parent_name": "娱乐",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "76": {
+   "parent_rid": 211,
+   "parent_name": "美食",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "83": {
+   "parent_rid": 23,
+   "parent_name": "电影",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "85": {
+   "parent_rid": 181,
+   "parent_name": "影视",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "86": {
+   "parent_rid": 1,
+   "parent_name": "动画",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "95": {
+   "parent_rid": 188,
+   "parent_name": "数码",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "122": {
+   "parent_rid": 36,
+   "parent_name": "科技",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "124": {
+   "parent_rid": 36,
+   "parent_name": "科技",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "126": {
+   "parent_rid": 119,
+   "parent_name": "鬼畜",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "130": {
+   "parent_rid": 3,
+   "parent_name": "音乐",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "137": {
+   "parent_rid": 5,
+   "parent_name": "娱乐",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "145": {
+   "parent_rid": 23,
+   "parent_name": "电影",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "147": {
+   "parent_rid": 23,
+   "parent_name": "电影",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "152": {
+   "parent_rid": 13,
+   "parent_name": "番剧",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "153": {
+   "parent_rid": 167,
+   "parent_name": "国创相关",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "154": {
+   "parent_rid": 129,
+   "parent_name": "舞蹈",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "156": {
+   "parent_rid": 129,
+   "parent_name": "舞蹈",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "157": {
+   "parent_rid": 155,
+   "parent_name": "时尚",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "158": {
+   "parent_rid": 155,
+   "parent_name": "时尚",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "159": {
+   "parent_rid": 155,
+   "parent_name": "时尚",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "168": {
+   "parent_rid": 167,
+   "parent_name": "国创相关",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "171": {
+   "parent_rid": 4,
+   "parent_name": "游戏",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "172": {
+   "parent_rid": 4,
+   "parent_name": "游戏",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "182": {
+   "parent_rid": 181,
+   "parent_name": "影视",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "183": {
+   "parent_rid": 181,
+   "parent_name": "影视",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "184": {
+   "parent_rid": 181,
+   "parent_name": "影视",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "185": {
+   "parent_rid": 11,
+   "parent_name": "电视剧",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "187": {
+   "parent_rid": 11,
+   "parent_name": "电视剧",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "193": {
+   "parent_rid": 3,
+   "parent_name": "音乐",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "198": {
+   "parent_rid": 129,
+   "parent_name": "舞蹈",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "199": {
+   "parent_rid": 129,
+   "parent_name": "舞蹈",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "200": {
+   "parent_rid": 129,
+   "parent_name": "舞蹈",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "201": {
+   "parent_rid": 36,
+   "parent_name": "科技",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "203": {
+   "parent_rid": 202,
+   "parent_name": "资讯",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "205": {
+   "parent_rid": 202,
+   "parent_name": "资讯",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "207": {
+   "parent_rid": 36,
+   "parent_name": "科技",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "208": {
+   "parent_rid": 36,
+   "parent_name": "科技",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "209": {
+   "parent_rid": 36,
+   "parent_name": "科技",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "210": {
+   "parent_rid": 1,
+   "parent_name": "动画",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "212": {
+   "parent_rid": 211,
+   "parent_name": "美食",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "213": {
+   "parent_rid": 211,
+   "parent_name": "美食",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "214": {
+   "parent_rid": 211,
+   "parent_name": "美食",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "215": {
+   "parent_rid": 211,
+   "parent_name": "美食",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "216": {
+   "parent_rid": 119,
+   "parent_name": "鬼畜",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "228": {
+   "parent_rid": 36,
+   "parent_name": "科技",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "230": {
+   "parent_rid": 188,
+   "parent_name": "数码",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "241": {
+   "parent_rid": 5,
+   "parent_name": "娱乐",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "242": {
+   "parent_rid": 5,
+   "parent_name": "娱乐",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "243": {
+   "parent_rid": 3,
+   "parent_name": "音乐",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "244": {
+   "parent_rid": 3,
+   "parent_name": "音乐",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "252": {
+   "parent_rid": 155,
+   "parent_name": "时尚",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "253": {
+   "parent_rid": 1,
+   "parent_name": "动画",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "255": {
+   "parent_rid": 129,
+   "parent_name": "舞蹈",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "256": {
+   "parent_rid": 181,
+   "parent_name": "影视",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "257": {
+   "parent_rid": 1,
+   "parent_name": "动画",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "263": {
+   "parent_rid": 5,
+   "parent_name": "娱乐",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  },
+  "267": {
+   "parent_rid": 3,
+   "parent_name": "音乐",
+   "basis": "newlist 该一级 rid 的新投稿列表返回的 tid"
+  }
+ },
+ "newlist_probe": [
+  {
+   "rid": 1,
+   "pn": 1,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 1,
+   "pn": 2,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 1,
+   "pn": 3,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 3,
+   "pn": 1,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 3,
+   "pn": 2,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 3,
+   "pn": 3,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 4,
+   "pn": 1,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 4,
+   "pn": 2,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 4,
+   "pn": 3,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 5,
+   "pn": 1,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 5,
+   "pn": 2,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 5,
+   "pn": 3,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 11,
+   "pn": 1,
+   "code": 0,
+   "n": 10
+  },
+  {
+   "rid": 11,
+   "pn": 2,
+   "code": 0,
+   "n": 10
+  },
+  {
+   "rid": 11,
+   "pn": 3,
+   "code": 0,
+   "n": 10
+  },
+  {
+   "rid": 13,
+   "pn": 1,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 13,
+   "pn": 2,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 13,
+   "pn": 3,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 23,
+   "pn": 1,
+   "code": 0,
+   "n": 13
+  },
+  {
+   "rid": 23,
+   "pn": 2,
+   "code": 0,
+   "n": 13
+  },
+  {
+   "rid": 23,
+   "pn": 3,
+   "code": 0,
+   "n": 13
+  },
+  {
+   "rid": 36,
+   "pn": 1,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 36,
+   "pn": 2,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 36,
+   "pn": 3,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 119,
+   "pn": 1,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 119,
+   "pn": 2,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 119,
+   "pn": 3,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 129,
+   "pn": 1,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 129,
+   "pn": 2,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 129,
+   "pn": 3,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 155,
+   "pn": 1,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 155,
+   "pn": 2,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 155,
+   "pn": 3,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 160,
+   "pn": 1,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 160,
+   "pn": 2,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 160,
+   "pn": 3,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 167,
+   "pn": 1,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 167,
+   "pn": 2,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 167,
+   "pn": 3,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 181,
+   "pn": 1,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 181,
+   "pn": 2,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 181,
+   "pn": 3,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 188,
+   "pn": 1,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 188,
+   "pn": 2,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 188,
+   "pn": 3,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 202,
+   "pn": 1,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 202,
+   "pn": 2,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 202,
+   "pn": 3,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 211,
+   "pn": 1,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 211,
+   "pn": 2,
+   "code": 0,
+   "n": 50
+  },
+  {
+   "rid": 211,
+   "pn": 3,
+   "code": 0,
+   "n": 50
+  }
+ ],
+ "known_first_level": {
+  "0": "全站",
+  "1": "动画",
+  "3": "音乐",
+  "4": "游戏",
+  "5": "娱乐",
+  "11": "电视剧",
+  "13": "番剧",
+  "23": "电影",
+  "36": "科技",
+  "119": "鬼畜",
+  "129": "舞蹈",
+  "138": "搞笑",
+  "155": "时尚",
+  "160": "生活",
+  "167": "国创相关",
+  "181": "影视",
+  "188": "数码",
+  "202": "资讯",
+  "211": "美食",
+  "217": "动物圈",
+  "223": "汽车",
+  "234": "运动",
+  "249": "知识"
+ },
+ "notes": [
+  "ranking/v2 实际只接受少量一级 rid（本次 code=0 的见 valid_rids），其余返回 -400；-352 是风控不是 rid 无效。",
+  "排名接口在本会话中途被 -352 风控挡死（rid≥17 起连续 -352），因此补了一次 newlist 分区列表探测作为实证替代；两者都只记录接口真实返回的 tid/tname。",
+  "rid 参数是「榜单区/分区」，返回视频的 tid/tname 是视频自身二级分区；parent_map 只在归属唯一时建立。",
+  "known_first_level 是已知对照（非接口返回），只用于给 rid 命名，未验证的 rid 一律不写。",
+  "ranking 探测在 rid=11 提前中止（连续10次 -352 风控）；中止后的 rid 未探测，不做任何推断。",
+  "OBSERVED_OK 里的 rid 是本次会话早期对 1..200 逐位实测 code=0 的结果，作为已观测证据合并进 valid_rids。"
+ ]
+}
